@@ -256,41 +256,92 @@
 
         </section>
 
-        <div class="section-bg mt-5" id="portfolio"></div>
-        <div class="container pb-5 pt-5">
-            <h2 class="pb-5">Portfólio</h2>
+        <section class="section-bg mt-5" id="portfolio">
+            <div class="container pb-5 pt-5">
+                <h2 class="pb-5">Portfólio</h2>
 
-            <div id="carouselExampleDark" class="carousel carousel-dark slide">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="10000">
-                    <div class="card mb-3">
-                        <img src="../static/imgs/pokedex.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Pokedex</h5>
-                          <p class="card-text">Pokedex feita usando HTML, CSS e o Framework Flask.</p>
-                          <div class="d-flex justify-content-center">
-                            <a href="https://github.com/verezeeee/Pokedex-master/tree/master/Flask-Pokedex-master" target="_blank" class="btn btn-outline-dark me-3"><i class="bi bi-github"></i></a>
-                          </div>
+                <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="card mb-3">
+                            <img src="../static/imgs/pokedex.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Pokedex</h5>
+                            <p class="card-text">Pokedex feita usando HTML, CSS e o Framework Flask.</p>
+                            <div class="d-flex justify-content-center">
+                                <a href="https://github.com/verezeeee/Pokedex-master/tree/master/Flask-Pokedex-master" target="_blank" class="btn btn-outline-dark me-3"><i class="bi bi-github"></i></a>
+                            </div>
+                            </div>
                         </div>
-                      </div>
-                  </div>
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-        </div>
+            </div>
+        </section>
 
+        <section class="pt-5 pb-5" id="contato">
+
+            <div class="container mb-5">
+                <h2 class="pt-3 pb-3">Contato</h2>
+
+                <div class="row">
+
+                    <div class="col-md-5">
+                        <div class="card p-5 shadow border-0">
+                            <div class="endereco">
+                                <h4><i class="bi bi-geo-alt"></i> Localização:</h4>
+                                <p>Anápolis, GO</p>
+                            </div>
+
+                            <div class="email">
+                                <h4><i class="bi bi-envelope"></i> Email:</h4>
+                                <p>theusma58@gmail.com</p>
+                            </div>
+
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3829.5604786172894!2d-48.94591872388203!3d-16.29428173546477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ea41e3d4f01bb%3A0xc7932a89efac8958!2sUniEVANG%C3%89LICA%20-%20Universidade%20Evang%C3%A9lica%20de%20Goi%C3%A1s!5e0!3m2!1spt-BR!2sbr!4v1682094400157!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-100"></iframe>
+                        </div>
+                    </div>
+
+                    <div class="col-md-7 mt-5 mt-md-0">
+                        <div class="card p-5 h-100 shadow border-0">
+
+                            <form class="row g-3">
+                                <div class="col-md-6">
+                                  <label for="nome" class="form-label">Nome</label>
+                                  <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite seu nome.">
+                                </div>
+                                <div class="col-md-6">
+                                  <label for="email" class="form-label">Email:</label>
+                                  <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu e-mail.">
+                                </div>
+                                <div class="col-12">
+                                    <label for="mensagem" class="form-label">Mensagem: </label>
+                                    <textarea type="text" class="form-control" id="mensagem" name="mensagem" rows="10" placeholder="Digite sua mensagem"></textarea>
+                                </div>
+                                <div class="col-12 d-flex justify-content-center mt-4">
+                                  <button type="submit" class="btn btn-outline-primary">Enviar Mensagem</button>
+                                </div>
+                              </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
     </main>
 
     <script src="../static/bootstrap/js/bootstrap.bundle.min.js"></script>
