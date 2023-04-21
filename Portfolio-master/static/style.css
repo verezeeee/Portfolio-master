@@ -229,4 +229,25 @@ i.menu-mobile {
     background: #fff;
     border-radius: 50%;
 }
+.carousel-control-prev{
+    margin-left: -10rem;
+    color: gray;
+}
+.carousel-control-next{
+    margin-right: -10rem;
+    color: gray;
+}
+.carousel-indicators{
+    margin-bottom: -35px;
+    color: #000000;
+}
+
+@media (max-width: 1860px){
+    .carousel-control-prev{
+        margin-left: 0;
+    }
+    .carousel-control-next{
+        margin-right: 0;
+    }
+}
 
